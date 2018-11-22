@@ -7,6 +7,9 @@ import java.security.MessageDigest;
 import java.util.Arrays;
 import java.util.Base64;
 
+/**
+ * Taken from https://github.com/TriggerMail/code_samples/blob/master/java/encryption/OpenSSL3DES.java
+ */
 public class OpenSSL3DES {
 
     private static final byte[] SALT = new byte[] { (byte) 0x72, (byte) 0x6d,
